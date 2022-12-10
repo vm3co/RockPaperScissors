@@ -12,9 +12,11 @@ fun getuserChoice(optionsParam: Array<String>): String {
     var isValidChoice = false
     var userChoice = ""
     while (!isValidChoice){
+        println("Holle!!")
         print("Please enter one of the following:")
         for (item in optionsParam) print(" $item")
         println(".")
+        print("Answer：")
 
         val userInput = readLine()
 
